@@ -8,7 +8,7 @@ def hangman():
     word = random.choice(words)
     guessed = set()
     wrong = 0
-    max_wrong = 6
+    max_wrong = 10
 
     print("🎉 행맨(Hangman) 게임에 오신 것을 환영합니다! 🎉")
     print(f"총 {max_wrong}번의 오답 기회가 있습니다. 단어를 맞혀 보세요.\n")
